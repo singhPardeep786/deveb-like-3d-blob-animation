@@ -96,7 +96,7 @@ varying float vElevation;
 void main() {
     vUv = uv;
     vec4 modelPosition = modelViewMatrix * vec4(position, 1.0);
-    float elevation = snoise(vec3(position*.7 + uTime*.4))*.3;
+    float elevation = snoise(vec3(position*.6 + uTime*.4))*.3;
     modelPosition.xyz += normal*elevation;
     vElevation = elevation;
     vec4 projectedPosition = projectionMatrix * modelPosition;
