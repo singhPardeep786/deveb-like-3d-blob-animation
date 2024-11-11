@@ -3,7 +3,7 @@ varying float vElevation;
 uniform float uColor;
 
 void main() {
-    vec4 c1 = vec4(0.9608, 0.7373, 0.9882, 1.0);
+    vec4 c1 = vec4(0.9608, 0.6627, 1.0, 1.0);
     vec4 c2 = vec4(0.9882, 0.7843, 1.0, 1.0);
 
     vec4 c3 = vec4(0.9569, 0.902, 0.8471, 1.0);
